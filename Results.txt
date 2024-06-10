@@ -1,0 +1,210 @@
+APPROACH 1
+
+Lemmatized TF-IDF Logistic Regression Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized TF-IDF KNN Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.73      1.00      0.84      1362
+           1       0.60      0.01      0.01       513
+
+    accuracy                           0.73      1875
+   macro avg       0.66      0.50      0.43      1875
+weighted avg       0.69      0.73      0.61      1875
+
+
+Lemmatized TF-IDF SGD Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized TF-IDF MLP Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1362
+           1       0.70      0.86      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.84      1875
+weighted avg       0.88      0.86      0.87      1875	
+
+
+Lemmatized TF-IDF Random Forest Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized TF-IDF HistGradientBoosting Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+--------------------------------------------------------------
+APPROACH 2
+
+Lemmatized GloVe Logistic Regression Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized GloVe KNN Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized GloVe MLP Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized GloVe SGD Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized GloVe Random Forest Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+Lemmatized GloVe HistGradientBoosting Classifier 
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+
+-------------------------------------------------------
+APPROACH 3
+
+
+
+--------------------------------------------------------
+COMPARISONS
+
+Lemmatized TF-IDF MLP Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1362
+           1       0.70      0.86      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.84      1875
+weighted avg       0.88      0.86      0.87      1875
+
+vs
+
+Lemmatized GloVe HistGradientBoosting Classifier 
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      1362
+           1       0.70      0.85      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.83      1875
+weighted avg       0.87      0.86      0.86      1875
+
+----------------------------------------
+WINNER
+
+
+Lemmatized TF-IDF MLP Classifier 
+ 
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1362
+           1       0.70      0.86      0.77       513
+
+    accuracy                           0.86      1875
+   macro avg       0.82      0.86      0.84      1875
+weighted avg       0.88      0.86      0.87      1875
