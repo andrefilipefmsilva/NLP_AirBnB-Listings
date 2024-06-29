@@ -3,4 +3,4 @@
 Work done as part of the Text Mining course.
 
 
-Will update the final notebook with all results when possible.
+This repository is not final yet -- Will update the final notebook with all results when time allows.
