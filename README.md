@@ -2,7 +2,6 @@
 
 Work done as part of the Text Mining course at Nova IMS.
 
-This work has limitations in terms of the final code and final report, due to computational resource constraints and time constraints. When time allows, these will be addressed.
+This work has limitations in terms of the final code and final report, due to computational resource constraints and time constraints.
 
-
-This repository is not final yet.
+Nonetheless, it still provided good predictions and we got a good grade.
